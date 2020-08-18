@@ -8,15 +8,15 @@
   <!-- servlet 声明 -->
   <servlet>
 <!--    servlet的名称-->
-    <servlet-name>LoginMock</servlet-name>
+    <servlet-name>LoginMockTest</servlet-name>
 <!--    servlet类的地址，用全包名路径-->
-    <servlet-class>com.testing.login.LoginMock</servlet-class>
+    <servlet-class>com.testing.login.LoginMockTest</servlet-class>
   </servlet>
 <!--  servlet映射-->
   <servlet-mapping>
     <!--    servlet的名称-->
-    <servlet-name>LoginMock</servlet-name>
+    <servlet-name>LoginMockTest</servlet-name>
 <!--    servlet接口在项目上的url地址-->
-    <url-pattern>/LoginMock</url-pattern>
+    <url-pattern>/LoginMockTest</url-pattern>
   </servlet-mapping>
 </web-app>
